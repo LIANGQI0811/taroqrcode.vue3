@@ -1,5 +1,6 @@
 # taroqrcode.vue
 
+This project was fork by [qrcode.vue](https://github.com/scopewu/qrcode.vue)
 
 A Vue.js component to generate [QRCode](https://en.wikipedia.org/wiki/QR_code).
 

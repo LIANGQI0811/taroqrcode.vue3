@@ -1,8 +1,6 @@
-# qrcode.vue
+# taroqrcode.vue
 
-⚠️ 如果你正在使用 Vue 3，请升级 `qrcode.vue` 到 `3.x`;
-
-🔒 如果你正在使用 Vue 2，请保持 `qrcode.vue` 的版本为 `1.x`;
+这个项目源自于[qrcode.vue](https://github.com/scopewu/qrcode.vue)
 
 一款 Vue.js 二维码组件.
 
