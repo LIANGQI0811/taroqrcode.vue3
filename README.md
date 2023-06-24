@@ -1,8 +1,5 @@
-# qrcode.vue
+# taroqrcode.vue
 
-⚠️ Now when you are using Vue 3.x, please upgrade `qrcode.vue` to `3.x`
-
-🔒 if you are using Vue 2.x, please keep using version `1.x`;
 
 A Vue.js component to generate [QRCode](https://en.wikipedia.org/wiki/QR_code).
 
@@ -16,7 +13,7 @@ A Vue.js component to generate [QRCode](https://en.wikipedia.org/wiki/QR_code).
 the `qrcode.vue` component can use in you Vue.js app.
 
 ```bash
-npm install --save qrcode.vue # yarn add qrcode.vue
+npm install --save taroqrcode.vue # yarn add qrcode.vue
 ```
 
 ```
@@ -33,7 +30,7 @@ e.g.
 
 ```javascript
 import { createApp } from 'vue'
-import QrcodeVue from 'qrcode.vue'
+import QrcodeVue from 'taroqrcode.vue'
 
 createApp({
   data: {
