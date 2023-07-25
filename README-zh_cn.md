@@ -1,7 +1,7 @@
 # taroqrcode.vue
 
 这个项目源自于[qrcode.vue](https://github.com/scopewu/qrcode.vue)
-
+# 目前仅支持源码方式引入，请参考example
 一款 Vue.js 二维码组件.
 
 [![Build Status](https://travis-ci.org/scopewu/qrcode.vue.svg?branch=master)](https://travis-ci.org/scopewu/qrcode.vue)
