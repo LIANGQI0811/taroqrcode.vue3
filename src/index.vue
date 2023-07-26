@@ -102,11 +102,19 @@ function generatePath(modules: Modules, margin: number = 0): string {
     return ops.join('')
 }
 
-function createPath2D(canvas: HTMLCanvasElement, cells: any): Path2D {
+function createPath2D(canvas: HTMLCanvasElement | any, cells: any): Path2D {
     if (isH5) {
         return new Path2D(generatePath(cells, props.margin));
     } else {
-        return canvas.createPath2D(generatePath(cells, props.margin));
+        const path2d = canvas.createPath2D();
+        cells.forEach((row, y) => {
+            row.forEach((cell, x) => {
+                if (cell) {
+                    path2d.rect(x, y, 1, 1)
+                }
+            });
+        });
+        return path2d;
     }
 }
 
